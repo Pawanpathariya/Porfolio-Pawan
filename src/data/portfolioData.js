@@ -14,10 +14,10 @@ export const portfolioData = {
     avatar: "https://github.com/Pawanpathariya.png"
   },
   about: {
-    summary: "B.Tech CSE graduate with hands-on experience in full-stack development. Currently building the Pabbly product suite at Magnet Brains - email marketing (PEM), speech-to-text (Pabbly Flow, Pabbly STT), and productivity tools used by millions. Previously interned at Inteliostack.ai building SaaS-based ecommerce solutions. Passionate about creating impactful products using MERN stack.",
+    summary: "B.Tech CSE graduate with hands-on experience in full-stack development. Currently building the Pabbly product suite at Magnet Brains - email marketing (PEM), email verification (PEV), speech-to-text (Pabbly Flow, Pabbly STT), and productivity tools used by millions. Previously interned at Inteliostack.ai building SaaS-based ecommerce solutions. Passionate about creating impactful products using MERN stack.",
     highlights: [
       "Full-stack MERN developer with production experience",
-      "Built Pabbly Email Marketing from scratch at Magnet Brains",
+      "Built Pabbly Email Marketing (PEM) and Pabbly Email Verification (PEV) at Magnet Brains",
       "Developed Speech-to-Text desktop app using OpenAI Whisper (WhisperFlow-like)",
       "SaaS ecommerce expertise from Inteliostack.ai internship",
       "BullMQ, Electron & Node.js experience"
@@ -30,9 +30,10 @@ export const portfolioData = {
       role: "Software Developer",
       period: "Jun 2025 - Present",
       location: "India (Remote)",
-      description: "Building the Pabbly product suite - email marketing (PEM), speech-to-text (Pabbly Flow, Pabbly STT), and automation tools at Magnet Brains.",
+      description: "Building the Pabbly product suite at Magnet Brains - email marketing (PEM), email verification (PEV), speech-to-text (Pabbly Flow, Pabbly STT), and automation tools.",
       achievements: [
         "Created Pabbly Email Marketing (PEM) from scratch - supports PMTA credentials (self-setup) and other SMTP providers",
+        "Developed Pabbly Email Verification (PEV) - email list cleaning and validation for 98% deliverability, bulk/single verification, duplicate removal, MTA validation",
         "Built Pabbly Flow - Speech-to-Text desktop application using OpenAI Whisper (similar to WhisperFlow)",
         "Developed Pabbly STT Service - FastAPI + faster-whisper backend for real-time transcription",
         "Electron-based cross-platform Pabbly Flow desktop app with global shortcuts"
@@ -94,6 +95,16 @@ export const portfolioData = {
     },
     {
       id: 3,
+      name: "PEV - Pabbly Email Verification",
+      description: "Email list cleaning and validation service developed at Magnet Brains (Pabbly). Verifies single or bulk emails for 98% deliverability. Removes duplicates and invalid/inactive domains, provides MTA validations and detailed status codes. Upload CSV → verify → download cleaned list. Integrates with Pabbly Connect.",
+      image: null,
+      tech: ["Node.js", "React", "BullMQ", "MongoDB", "REST API"],
+      liveUrl: null,
+      githubUrl: null,
+      featured: true
+    },
+    {
+      id: 4,
       name: "Burka E-commerce",
       description: "Full MERN ecommerce platform with admin panel, product management, cart, orders, payment integration, and ImageKit media handling.",
       image: null,
@@ -103,7 +114,7 @@ export const portfolioData = {
       featured: true
     },
     {
-      id: 4,
+      id: 5,
       name: "RoleAction (Next.js)",
       description: "Role-based application with Prisma, CASL for authorization, NextAuth for authentication. Full-stack Next.js with PostgreSQL.",
       image: null,
@@ -113,7 +124,7 @@ export const portfolioData = {
       featured: false
     },
     {
-      id: 5,
+      id: 6,
       name: "E-Banking App",
       description: "Banking application with JWT authentication, bcrypt password hashing, and nodemailer for notifications.",
       image: null,
@@ -123,7 +134,7 @@ export const portfolioData = {
       featured: false
     },
     {
-      id: 6,
+      id: 7,
       name: "React E-commerce",
       description: "Frontend ecommerce with Redux, Ant Design, cart management, and responsive design.",
       image: null,
@@ -133,7 +144,7 @@ export const portfolioData = {
       featured: false
     },
     {
-      id: 7,
+      id: 8,
       name: "Stripe Payment Integration",
       description: "Backend integration for Stripe payments with order management and webhooks.",
       image: null,
