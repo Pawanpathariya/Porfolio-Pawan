@@ -105,16 +105,6 @@ export const portfolioData = {
     },
     {
       id: 4,
-      name: "Burka E-commerce",
-      description: "Full MERN ecommerce platform with admin panel, product management, cart, orders, payment integration, and ImageKit media handling.",
-      image: null,
-      tech: ["MongoDB", "Express", "React", "Node.js", "JWT", "ImageKit"],
-      liveUrl: null,
-      githubUrl: null,
-      featured: true
-    },
-    {
-      id: 5,
       name: "RoleAction (Next.js)",
       description: "Role-based application with Prisma, CASL for authorization, NextAuth for authentication. Full-stack Next.js with PostgreSQL.",
       image: null,
@@ -124,7 +114,7 @@ export const portfolioData = {
       featured: false
     },
     {
-      id: 6,
+      id: 5,
       name: "E-Banking App",
       description: "Banking application with JWT authentication, bcrypt password hashing, and nodemailer for notifications.",
       image: null,
@@ -134,7 +124,7 @@ export const portfolioData = {
       featured: false
     },
     {
-      id: 7,
+      id: 6,
       name: "React E-commerce",
       description: "Frontend ecommerce with Redux, Ant Design, cart management, and responsive design.",
       image: null,
@@ -144,7 +134,7 @@ export const portfolioData = {
       featured: false
     },
     {
-      id: 8,
+      id: 7,
       name: "Stripe Payment Integration",
       description: "Backend integration for Stripe payments with order management and webhooks.",
       image: null,
