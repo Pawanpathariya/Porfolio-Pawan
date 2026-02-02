@@ -45,7 +45,7 @@ export const portfolioData = {
       company: "Inteliostack.ai",
       role: "Full Stack Developer Intern",
       period: "3 months",
-      location: "India",
+      location: "India (Bhopal)",
       description: "Worked on SaaS-based ecommerce platform - building scalable backend APIs and modern frontend interfaces.",
       achievements: [
         "Developed full ecommerce backend with admin, cart, orders, payments",
