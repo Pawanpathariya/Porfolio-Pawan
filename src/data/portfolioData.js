@@ -26,10 +26,10 @@ export const portfolioData = {
   experience: [
     {
       id: 1,
-      company: "Magnet Brains",
-      role: "Software Developer",
+      company: "Magnet Brains (Pabbly)",
+      role: "Associate Software Developer",
       period: "Jun 2025 - Present",
-      location: "India (Remote)",
+      location: "India (Bhopal)",
       description: "Building the Pabbly product suite at Magnet Brains - email marketing (PEM), email verification (PEV), speech-to-text (Pabbly Flow, Pabbly STT), and automation tools.",
       achievements: [
         "Created Pabbly Email Marketing (PEM) from scratch - supports PMTA credentials (self-setup) and other SMTP providers",
